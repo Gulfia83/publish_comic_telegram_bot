@@ -11,13 +11,15 @@
     - `TELEGRAM_BOT_TOKEN` - ваш токен бота.
     - `TELEGRAM_CHAT_ID` - id вашего телеграм канала.
 
-### Пример запуска в консоли
+### Пример запуска в консоли и вывода в телеграм
 
 Запустить скрипт можно с помощью команды `python main.py` в командной строке.
 
 ```console
 python main.py
 ```
+#### Вывод в телеграм
+![Снимок](https://github.com/Gulfia83/publish_comic_telegram_bot/assets/168065597/bb6c780f-fe8a-4822-b1a0-cbe64c002282)
 
 ### Описание кода
 
