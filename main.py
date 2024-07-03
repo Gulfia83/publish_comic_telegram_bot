@@ -46,4 +46,5 @@ if __name__ == '__main__':
         image_name, comments = download_random_comic(last_comic_number)
         send_comic_to_tg_chat(token, chat_id, image_name, comments)
     finally:
-        os.remove(image_name)
+        if os.path.exists(image_name):
+            os.remove(image_name)
