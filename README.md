@@ -13,13 +13,17 @@ The project is an automatic tool for publishing random comics from the XKCD webs
  - `TELEGRAM_BOT_TOKEN` - your bot token.
  - `TELEGRAM_CHAT_ID` - id of your telegram channel.
 
-### Example of launching in the console
+### Example of launching in the console and outputting in Telegram
 
 Run the script using the `python main.py` command on the command line.
 
 ```console
 python main.py
 ```
+
+#### Output in Telegram
+
+![Снимок](https://github.com/Gulfia83/publish_comic_telegram_bot/assets/168065597/b558a403-da8a-4b01-9fe7-42810beb19b4)
 
 ### Code Description
 
