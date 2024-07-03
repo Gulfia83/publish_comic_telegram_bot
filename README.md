@@ -13,13 +13,19 @@ The project is an automatic tool for publishing random comics from the XKCD webs
  - `TELEGRAM_BOT_TOKEN` - your bot token.
  - `TELEGRAM_CHAT_ID` - id of your telegram channel.
 
-5. Run the script using the `python main.py` command on the command line.
+### Example of launching in the console
+
+Run the script using the `python main.py` command on the command line.
+
+```console
+python main.py
+```
 
 ### Code Description
 
 1. The `get_last_comic_number` function gets the number of the last comic on the XKCD website.
-4. The `get_random_comic` function retrieves information about a random comic, including the image URL and comment.
-5. The `send_comic_to_TG_chat` function sends a comment and an image of a random comic to the specified Telegram channel. After publication, the photo of the comic is removed from the directory.
+2. The `download_random_comic` function retrieves information about a random comic, including the image URL and comment.
+3. The `send_comic_to_tg_chat` function sends a comment and an image of a random comic to the specified Telegram channel.
 
 ### Objective of the project
 
